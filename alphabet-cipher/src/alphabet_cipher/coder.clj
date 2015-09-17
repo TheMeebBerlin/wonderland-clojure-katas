@@ -50,5 +50,3 @@
 
 (defn decode [keyword message]
   (apply str (map decode-char (cycle keyword) message)))
-
-
